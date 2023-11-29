@@ -21,6 +21,7 @@ function PortfolioCard({
         cardMobilePicture={cardMobilePicture}
         title={title}
         id={id}
+        pageUrl={pageUrl}
       />
       <CardDescription
         title={title}

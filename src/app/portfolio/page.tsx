@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioCard from "@/components/portfolio_page_using/portfolio_card/PortfolioCard";
+import PortfolioCard from "@/components/portfolio_page_using/PortfolioCard";
 import SectionTitle from "@/components/typography/SectionTitle";
 import { projectsArray } from "@/data/projects";
 

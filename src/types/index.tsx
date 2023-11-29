@@ -33,17 +33,16 @@ export interface CardData {
   gitHubUrl: string;
 }
 
+type simpleCardData = Omit<CardData, "gitHubUrl">;
+
 export interface PortfolioCardProps {
   cardData: CardData;
 }
 
-export interface CardImageProps {
+export interface CardImageProps extends simpleCardData {
   isHover: boolean;
-  cardPicture: StaticImageData;
-  cardMobilePicture: StaticImageData;
-  title: string;
-  id: number;
 }
+
 export interface CardDescriptionProps {
   isHover: boolean;
   pageUrl: string;

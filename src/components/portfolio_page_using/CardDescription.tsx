@@ -1,9 +1,9 @@
 import React from "react";
-import WebLinkIcon from "../../../assets/icons/icons8-link-64.png";
-import GitHubIcon from "../../../assets/icons/icons8-github-64.png";
-import { CardDescriptionProps, LinkIconProps } from "@/types";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { CardDescriptionProps, LinkIconProps } from "@/types";
+import WebLinkIcon from "../../assets/icons/icons8-link-64.png";
+import GitHubIcon from "../../assets/icons/icons8-github-64.png";
 
 const LinkIcon = ({ src, alt, url }: LinkIconProps) => {
   return (
