@@ -22,7 +22,7 @@ function CardDescription({
   gitHubUrl,
 }: CardDescriptionProps) {
   return (
-    <div className="group relative z-20 w-full  rounded-lg border border-transparent bg-transparent_gray py-2 group-hover:border-primary group-hover:bg-black">
+    <div className="group relative z-20 w-full  rounded-lg border border-transparent bg-stone-700 py-2 group-hover:border-primary group-hover:bg-black md:bg-transparent_gray">
       <p className="z-10 h-14 px-2 text-center tracking-widest  group-hover:text-primary">
         {title}
       </p>

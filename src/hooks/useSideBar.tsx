@@ -10,7 +10,7 @@ function useSideBar(defaultNavItem: string) {
     defaultNavItem === "__PAGE__"
       ? setSelectedItem("home")
       : setSelectedItem(defaultNavItem);
-  }, [defaultNavItem]);
+  }, []);
 
   const hoverHandler = useCallback(
     (label: string) => {

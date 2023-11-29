@@ -33,14 +33,13 @@ export const blurVariant = {
 };
 
 export const scaleVariant = {
-  initial: { opacity: 0, transform: "scale(0)" },
+  initial: { opacity: 0, transform: "scale(0) skewY(0deg)" },
   animate: {
     opacity: 1,
-    transform: "scale(1)",
+    transform: "scale(1) skewY(6deg)",
     transition: {
       type: "tween",
       duration: 0.5,
-      delay: 0.2,
     },
   },
 };
@@ -52,7 +51,6 @@ export const skewVariant = {
     transition: {
       type: "tween",
       duration: 0.5,
-      delay: 0.2,
     },
   },
 };

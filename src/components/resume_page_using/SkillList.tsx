@@ -17,7 +17,7 @@ function SkillList({ skills }: skillListProps) {
             opacity: 1,
             y: 0,
             transition: {
-              delay: index / 4,
+              delay: index / 8,
             },
           },
         };
